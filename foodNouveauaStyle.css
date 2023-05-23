@@ -1,0 +1,95 @@
+body{
+    box-sizing: border-box;
+    height: 100vh;
+}
+footer{
+    height: 5%;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    background-color: #EEBD0D;
+    font-family: 'Architects Daughter', cursive;
+    width: 98.9vw;
+    
+}
+
+.wrapper{
+    height: 95vh;
+}
+
+
+
+
+/* ------------------------------------------------------------------------NAVIGATION*/
+li{
+    padding-left: 50px;
+    padding-top: 10px;
+    font-size: 1.1rem;
+}
+
+
+.navSection{
+    height: 7%;
+    /* margin-right: 20px; */
+    font-family: 'Architects Daughter', cursive;
+    background-color: #EEBD0D;
+}
+
+.navNouveau{
+    height: 100%;
+    margin-right: 50px;
+    list-style: none;
+}
+
+.foodNouveau{
+    padding-left: 60px; 
+    font-weight: bolder;
+}
+/* ------------------------------------------------------------------------navigation*/
+
+
+
+/*-------------------------------------------------------------------------SECTION*/
+section{
+    /* height: 93%; */
+}
+.searchSection{
+    padding-top: 30px;
+}
+
+
+/*-------------------------------------------------------------------------section*/
+
+
+
+.imgInfo{
+    display:block;
+    text-align: center;
+    background-color: #EEBD0D;
+    height: 76px;
+    padding-top: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.recipeInfo {
+    height: 330px;
+    border: 2px solid black;
+    margin: 40px;
+    border-radius: 10px;
+}
+
+
+
+img{
+    height: 250px;
+    width: 280px;
+    border-bottom: 2px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+
+.readmoreButton{
+    border-radius: 10px;
+}
